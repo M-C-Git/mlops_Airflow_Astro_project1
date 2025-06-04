@@ -23,16 +23,17 @@ Initiate Your Project Locally
 
 This command will create a directory strucutre as follow.
 
-├── dags/                  # Your Airflow DAGs go here </br>
-├── include/               # Extra files used by your DAGs (scripts, SQL, etc.)</br>
-├── plugins/               # Custom Airflow plugins (hooks, operators, etc.)</br>
-├── tests/                 # Unit/integration tests for your DAGs</br>
-├── Dockerfile             # Customizes your Airflow image</br>
-├── requirements.txt       # Additional Python packages to install</br>
-├── packages.txt           # OS-level packages to install (Debian-based)</br>
-├── airflow_settings.yaml  # Optional Airflow object presets (connections, vars, etc.)</br>
-└── .astro/                # Internal CLI metadata (e.g., project config)</br>
-
+```text
+├── dags/                  # Your Airflow DAGs go here
+├── include/               # Extra files used by your DAGs (scripts, SQL, etc.)
+├── plugins/               # Custom Airflow plugins (hooks, operators, etc.)
+├── tests/                 # Unit/integration tests for your DAGs
+├── Dockerfile             # Customizes your Airflow image
+├── requirements.txt       # Additional Python packages to install
+├── packages.txt           # OS-level packages to install (Debian-based)
+├── airflow_settings.yaml  # Optional Airflow object presets (connections, vars, etc.)
+└── .astro/                # Internal CLI metadata (e.g., project config)
+```
 
 Deploy Your Project Locally
 ===========================
